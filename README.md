@@ -22,6 +22,10 @@ The goal is to help game developers proactively intervene to retain users and ex
 - **Baseline Compared**: Logistic Regression
 - **Frameworks**: Scikit-learn, Pandas, NumPy, MLflow
 
+- A logistics regression model was created first (tested and trained) then the random forest model was created next ( tested and trained)
+- The random forest model gave better results, so I decided on running the random forest model as my fianl model for the app
+- In the repo, you will find code for the logistic regression model also
+
 ---
 
 ## 🗃️ Dataset
@@ -31,7 +35,8 @@ The goal is to help game developers proactively intervene to retain users and ex
   - Player Level
   - League Points
   - Average Score
-  - Win %, Last 20 Match Win %
+  - Win %,
+  - Last 20 Match Win %
   - Losing Streak
   - Team performance metrics
   - Tier (Encoded)
